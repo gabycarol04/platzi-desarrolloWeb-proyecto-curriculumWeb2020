@@ -147,6 +147,7 @@ header{
 .hero-illustration{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .box-icon-abilities{
     flex-shrink: 0;
@@ -160,6 +161,10 @@ header{
 .abilities-icon, .box-icon-abilities{
     width: 50px;
 }
+.wp-icon{
+    background-color: #fcfcfc;
+    border-radius: 50px;
+}
 /*EXPERIENCIA*/
 .experience-list{
     border: 1px solid #e7e7e7;
@@ -172,11 +177,12 @@ header{
     padding-right: 30px;
 }
 .experience-fig{
-    display: block;
+    display: flex;
     text-align: center;
+    align-items: center;
 }
 .experience-img{
-    width: 80%;
+    width: 100%;
 }
 .experience-section{
     padding-bottom: 5px;
@@ -318,4 +324,153 @@ footer{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*******************RESPONSIVE*******************/
+/*@media only screen and (min-width: 1450px) { }*/
+
+@media only screen and (max-width: 1460px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+}  
+@media only screen and (max-width: 1225px) {
+    h1{
+        font-size: 60px;
+    }
+}  
+@media only screen and (max-width: 1200px) {
+
+}  
+@media only screen and (max-width: 1060px) {
+    #header-perfil{
+        width: 250px;
+    }
+    #hero{
+        width: 100%;
+    }
+    .experience-details{
+        width: 100%;
+        padding: 0px 20px 40px;
+    }
+    .experience-fig{
+        width: 100%;
+    }
+    .experience-list{
+        padding-bottom: 30px;
+    }
+
+}  
+@media only screen and (max-width: 1030px) {
+    .hero-description, .hero-illustration{
+        width: 50%;
+    }
+    .hero-abilities{
+        width: 100%;
+        padding-top: 80px;
+    }
+}  
+/*Tablets*/
+@media only screen and (max-width: 995px) {
+    .box-49{
+        width: 100%;
+    }
+    .events-list{
+        margin-bottom: 60px;
+    }
+    .events-list:last-child{
+        margin-bottom: 0px;
+    }
+    .formacion-categoria{
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    #header-name{
+        display: none;
+    }
+    #header-perfil{
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 710px) {
+    #menu{
+        display: none;
+    }
+    #header-name{
+        display: block;
+    }
+    #header-perfil{
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .box-icon-abilities{
+        margin: 20px 25px 20px 0px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .hero-description, .hero-illustration, .hero-abilities{
+        width: 90%;
+    }
+    .hero-abilities{
+        padding-top: 0px;
+    }
+    .hero-illustration{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .hero-fig{
+        padding-right: 20px;
+    }
+}
+/*Celulares*/
+@media only screen and (max-width: 570px) {
+    .event-details{
+        margin: 30px 30px;
+        margin-top: -60px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .hero-description{
+        padding-right: 20px;
+    }
+}
+/*iphone 6, plus, nexus*/
+@media only screen and (max-width: 420px) {
+    .btn-style{
+        text-align: center;
+    }
+    .event-details{
+        margin: -60px 20px 20px 20px;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    h1{
+        font-size: 40px;
+    }
+}
+/*galaxy s5*/
+@media only screen and (max-width: 350px) {
+    #header-name{
+        display: none;
+    }
+}
+/*iphone 5*/
+@media only screen and (max-width: 320px) {
+
 }
